@@ -1,0 +1,56 @@
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+CATDlgDialog TRACommandDlg
+{
+  STYLE = CATDlgGridLayout;
+}
+
+CATDlgFrame Frame1
+{
+  FATHER = TRACommandDlg;
+  STYLE = CATDlgGridLayout;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Point1
+{
+  FATHER = Frame1;
+  GRID = { 0, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Point2
+{
+  FATHER = TRACommandDlg;
+  GRID = { 1, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgLabel Point3
+{
+  FATHER = TRACommandDlg;
+  GRID = { 2, 0, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgSelectorList pointSelectorList001
+{
+  FATHER = TRACommandDlg;
+  TH = 1;
+  TW = 5;
+  GRID = { 0, 1, 1, 1, CATGRID_4SIDES };
+}
+
+CATDlgSelectorList pointSelectorList002
+{
+  FATHER = TRACommandDlg;
+  TH = 1;
+  TW = 5;
+  GRID = { 1, 1, 1, 2, CATGRID_4SIDES };
+}
+
+CATDlgSelectorList SelectorList008
+{
+  FATHER = TRACommandDlg;
+  TH = 1;
+  TW = 5;
+  GRID = { 3, 1, 1, 1, CATGRID_4SIDES };
+}
+
+// END WIZARD REPLACEMENT ZONE
